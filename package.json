@@ -1,0 +1,30 @@
+{
+    "name": "@a_sysoev/generate-react-component",
+    "version": "1.0.4",
+    "description": "CLI tool for generating React components.",
+    "main": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "bin": {
+        "generate-react-component": "./dist/index.js"
+    },
+    "keywords": [
+        "react",
+        "component",
+        "generator",
+        "CLI"
+    ],
+    "author": "Andrey Sysoev",
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "^12.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.1",
+        "typescript": "^5.7.2"
+    }
+}

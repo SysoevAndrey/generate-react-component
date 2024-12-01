@@ -65,6 +65,23 @@ src/components/MyComponent/
 ├── index.tsx
 ```
 
+With the following templated content:
+
+```
+import { FC } from 'react';
+
+import { cnMyComponent } from './MyComponent.const';
+import { IMyComponentProps } from './MyComponent.typings';
+
+import './MyComponent.scss';
+
+const MyComponent: FC<IMyComponentProps> = () => {
+  return <p className={cnMyComponent}>MyComponent</p>;
+};
+
+export default MyComponent;
+```
+
 ### Locally (via script)
 
 If the package is installed locally, use:

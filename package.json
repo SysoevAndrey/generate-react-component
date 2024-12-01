@@ -1,6 +1,6 @@
 {
     "name": "@a_sysoev/generate-react-component",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "CLI tool for generating React components.",
     "main": "./dist/index.js",
     "files": [

@@ -1,6 +1,6 @@
 {
-    "name": "@a_sysoev/generate-react-component",
-    "version": "1.0.6",
+    "name": "@sysoevandrey/generate-react-component",
+    "version": "0.0.1",
     "description": "CLI tool for generating React components.",
     "main": "./dist/index.js",
     "files": [
@@ -20,7 +20,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/SysoevAndrey/generate-react-component"
+        "url": "https://github.com/sysoevandrey/generate-react-component"
     },
     "author": "Andrey Sysoev",
     "license": "MIT",

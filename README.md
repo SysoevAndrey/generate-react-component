@@ -35,7 +35,7 @@
 Install the package globally using npm:
 
 ```bash
-npm install -g @a_sysoev/generate-react-component
+npm install -g @sysoevandrey/generate-react-component
 ```
 
 ---

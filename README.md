@@ -68,18 +68,16 @@ src/components/MyComponent/
 With the following templated content:
 
 ```
-import { FC } from 'react';
+import type { FC } from 'react';
 
 import { cnMyComponent } from './MyComponent.const';
-import { IMyComponentProps } from './MyComponent.typings';
+import type { IMyComponentProps } from './MyComponent.typings';
 
 import './MyComponent.scss';
 
-const MyComponent: FC<IMyComponentProps> = () => {
+export const MyComponent: FC<IMyComponentProps> = () => {
   return <p className={cnMyComponent}>MyComponent</p>;
 };
-
-export default MyComponent;
 ```
 
 ### Locally (via script)
